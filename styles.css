@@ -29,12 +29,12 @@
 }
 
 .main{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
 }
 
 .info-container{
-    background-color: green;
+    /* background-color: green; */
     height: 65vh;
     width: 80vw;
     margin: 147px auto;
@@ -62,6 +62,32 @@
 .about{
     font-size: 45px;
 }
+
+.about-more{
+    font-size: 23px;
+    font-family: 'Fira Sans', sans-serif
+}
+
+.buttons{
+    margin-top: 34px
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
 
 .devpic img{
     /* width: 381px; */
