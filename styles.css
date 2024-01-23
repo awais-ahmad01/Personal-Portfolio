@@ -22,10 +22,16 @@
 }
 
 .side-bar{
-    background-color: grey;
-    width: 10vw;
+    background-color: rgb(200, 181, 181);
+    /* width: 10vw; */
+    width: 400px;
     height: 100vh;
     font-family: 'Fira Sans', sans-serif
+}
+
+.side-bar nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 .main{
@@ -65,6 +71,7 @@
 
 .about-more{
     font-size: 23px;
+    margin-top: 23px;
     font-family: 'Fira Sans', sans-serif
 }
 
